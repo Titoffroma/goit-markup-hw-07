@@ -1,0 +1,20 @@
+@import "./utils/_variables.scss";
+@import "./components/_logo.scss";
+@import "./components/_header.scss";
+@import "./components/_header-nav.scss";
+@import "./components/_header-contacts.scss";
+
+// Простое обнуление стилей
+* {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
