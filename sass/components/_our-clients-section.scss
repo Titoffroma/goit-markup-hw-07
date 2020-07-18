@@ -1,0 +1,25 @@
+.our-clients-list {
+  display: flex;
+}
+.our-clients-listitem {
+  width: calc((100% - 30px * 5) / 6);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  a {
+    display: inline-block;
+    fill: $social-icon-color;
+    border: 1px solid $social-icon-color;
+    border-radius: 4px;
+    transition: fill $transition-fuction, border-color $transition-fuction;
+    &:hover,
+    &:focus {
+      fill: $main-color;
+      border-color: $main-color;
+    }
+  }
+}
+.our-clients-icon {
+  width: 170px;
+  height: 90px;
+}
